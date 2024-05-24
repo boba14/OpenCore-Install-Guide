@@ -164,7 +164,7 @@ To resolve the error, you have a few options:
     * If the network card **does** show up, next run `ping -c3 www.google.com` in the installer's terminal to ensure your network connection is working
       * If nothing shows, either your network or kexts are acting up
         * We recommend trying older variants of kexts in cases where newer builds have weird bugs with your hardware
-      * If it does return something, then the issue is on Apple's end. You'll simply need to try to install again another time unfortunately
+      * If it does return something, if you use high sierra and lower try typing 'nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"' into the terminal. If this doesn't resolve it then the issue is on Apple's end. You'll simply need to try to install again another time unfortunately
 
 | Check NIC | Ping |
 | :--- | :--- |
